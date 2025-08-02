@@ -19,8 +19,8 @@ namespace Tanks
 		
 		private void Awake()
 		{
-			_tank.Handbreak.performed += HandbreakChangeEventHandler;
-			_tank.Handbreak.canceled += HandbreakChangeEventHandler;
+			_tank.HandBreak.performed += HandbreakChangeEventHandler;
+			_tank.HandBreak.canceled += HandbreakChangeEventHandler;
 			_turret.Fire.performed += FireChangeEventHandler;
 		}
 
@@ -47,8 +47,8 @@ namespace Tanks
 		
 		private void OnDestroy()
 		{
-			_tank.Handbreak.performed -= HandbreakChangeEventHandler;
-			_tank.Handbreak.canceled -= HandbreakChangeEventHandler;
+			_tank.HandBreak.performed -= HandbreakChangeEventHandler;
+			_tank.HandBreak.canceled -= HandbreakChangeEventHandler;
 			_turret.Fire.performed -= FireChangeEventHandler;
 		}
 	}

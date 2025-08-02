@@ -161,7 +161,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Standalone: com.DefaultCompany.------------------------------------------------
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -678,9 +679,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: "\u0414\u043E\u043C\u0430\u0448\u043D\u044F\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-    \u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F"
-  metroPackageVersion: 
+  metroPackageName: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -689,7 +689,8 @@ PlayerSettings:
   metroApplicationDescription: "\u0414\u043E\u043C\u0430\u0448\u043D\u044F\u044F
     \u0440\u0430\u0431\u043E\u0442\u0430 \u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F"
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: "\u0414\u043E\u043C\u0430\u0448\u043D\u044F\u044F \u0440\u0430\u0431\u043E\u0442\u0430
+    \u041D\u0435\u0442\u043E\u043B\u043E\u0433\u0438\u044F"
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -755,7 +756,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 2
+  activeInputHandler: 1
   windowsGamepadBackendHint: 0
   cloudProjectId: 5407ed84-b792-40b5-983f-fbe81cdabcd2
   framebufferDepthMemorylessMode: 0
