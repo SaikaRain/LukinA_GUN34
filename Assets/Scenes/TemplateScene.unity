@@ -7593,20 +7593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b40e4376f8ff4f17ba0a6c55424ac9cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _torqueOffset: 30
-  _data:
-  - CoefA: 0.10000002
-    CoefB: 0.87199974
-    MinSpeed: 0
-    MaxSpeed: 48.70002
-  - CoefA: 0.3
-    CoefB: 3.399999
-    MinSpeed: 50
-    MaxSpeed: 100
-  - CoefA: 0.1
-    CoefB: 1
-    MinSpeed: 100
-    MaxSpeed: 200
 --- !u!1 &859291107
 GameObject:
   m_ObjectHideFlags: 0
